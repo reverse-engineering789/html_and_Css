@@ -1,0 +1,32 @@
+#weather-options {
+    width: 100%;
+    text-align: center;
+}
+
+.your-weather,
+.search-weather {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button {
+    padding: 5px 15px;
+    background: #5ba545;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Change color to dark green on hover */
+button:hover {
+    background: darkgreen;
+}
+
+/* Change color to blue when clicked */
+button:active {
+    background: blue;
+}
+
+    /* -------------------------------------------------------------------- */
